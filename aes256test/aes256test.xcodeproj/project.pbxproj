@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2F6042A25353DFC00601E90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F6042925353DFC00601E90 /* AppDelegate.swift */; };
+		C2F6042C25353DFC00601E90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F6042B25353DFC00601E90 /* SceneDelegate.swift */; };
+		C2F6042E25353DFC00601E90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F6042D25353DFC00601E90 /* ViewController.swift */; };
+		C2F6043125353DFC00601E90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F6042F25353DFC00601E90 /* Main.storyboard */; };
+		C2F6043325353DFE00601E90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F6043225353DFE00601E90 /* Assets.xcassets */; };
+		C2F6043625353DFE00601E90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F6043425353DFE00601E90 /* LaunchScreen.storyboard */; };
+		FFDE9D4C45A77749D1BEE4FD /* Pods_aes256test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D943D1B6647255CC9E362F0 /* Pods_aes256test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5DBC31C12F83C6FBE06ABF29 /* Pods-aes256test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aes256test.release.xcconfig"; path = "Target Support Files/Pods-aes256test/Pods-aes256test.release.xcconfig"; sourceTree = "<group>"; };
+		6D943D1B6647255CC9E362F0 /* Pods_aes256test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aes256test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADB4F575BB93571318C74FF /* Pods-aes256test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aes256test.debug.xcconfig"; path = "Target Support Files/Pods-aes256test/Pods-aes256test.debug.xcconfig"; sourceTree = "<group>"; };
+		C2F6042625353DFC00601E90 /* aes256test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aes256test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F6042925353DFC00601E90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2F6042B25353DFC00601E90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C2F6042D25353DFC00601E90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2F6043025353DFC00601E90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2F6043225353DFE00601E90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2F6043525353DFE00601E90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2F6043725353DFE00601E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2F6042325353DFC00601E90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDE9D4C45A77749D1BEE4FD /* Pods_aes256test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B81D150CD8E95EDE101E572D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D943D1B6647255CC9E362F0 /* Pods_aes256test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD4A5E54851AB7B251507E04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ADB4F575BB93571318C74FF /* Pods-aes256test.debug.xcconfig */,
+				5DBC31C12F83C6FBE06ABF29 /* Pods-aes256test.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C2F6041D25353DFC00601E90 = {
+			isa = PBXGroup;
+			children = (
+				C2F6042825353DFC00601E90 /* aes256test */,
+				C2F6042725353DFC00601E90 /* Products */,
+				BD4A5E54851AB7B251507E04 /* Pods */,
+				B81D150CD8E95EDE101E572D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2F6042725353DFC00601E90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2F6042625353DFC00601E90 /* aes256test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2F6042825353DFC00601E90 /* aes256test */ = {
+			isa = PBXGroup;
+			children = (
+				C2F6042925353DFC00601E90 /* AppDelegate.swift */,
+				C2F6042B25353DFC00601E90 /* SceneDelegate.swift */,
+				C2F6042D25353DFC00601E90 /* ViewController.swift */,
+				C2F6042F25353DFC00601E90 /* Main.storyboard */,
+				C2F6043225353DFE00601E90 /* Assets.xcassets */,
+				C2F6043425353DFE00601E90 /* LaunchScreen.storyboard */,
+				C2F6043725353DFE00601E90 /* Info.plist */,
+			);
+			path = aes256test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2F6042525353DFC00601E90 /* aes256test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F6043A25353DFE00601E90 /* Build configuration list for PBXNativeTarget "aes256test" */;
+			buildPhases = (
+				64AC19ACCC2CF2AAA1CCC8BF /* [CP] Check Pods Manifest.lock */,
+				C2F6042225353DFC00601E90 /* Sources */,
+				C2F6042325353DFC00601E90 /* Frameworks */,
+				C2F6042425353DFC00601E90 /* Resources */,
+				A4F3BB8B00EF743A61CCAB62 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aes256test;
+			productName = aes256test;
+			productReference = C2F6042625353DFC00601E90 /* aes256test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2F6041E25353DFC00601E90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = TDCC_IFD;
+				TargetAttributes = {
+					C2F6042525353DFC00601E90 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = C2F6042125353DFC00601E90 /* Build configuration list for PBXProject "aes256test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2F6041D25353DFC00601E90;
+			productRefGroup = C2F6042725353DFC00601E90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2F6042525353DFC00601E90 /* aes256test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2F6042425353DFC00601E90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F6043625353DFE00601E90 /* LaunchScreen.storyboard in Resources */,
+				C2F6043325353DFE00601E90 /* Assets.xcassets in Resources */,
+				C2F6043125353DFC00601E90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64AC19ACCC2CF2AAA1CCC8BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aes256test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4F3BB8B00EF743A61CCAB62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aes256test/Pods-aes256test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aes256test/Pods-aes256test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-aes256test/Pods-aes256test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2F6042225353DFC00601E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F6042E25353DFC00601E90 /* ViewController.swift in Sources */,
+				C2F6042A25353DFC00601E90 /* AppDelegate.swift in Sources */,
+				C2F6042C25353DFC00601E90 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2F6042F25353DFC00601E90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F6043025353DFC00601E90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2F6043425353DFE00601E90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F6043525353DFE00601E90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2F6043825353DFE00601E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2F6043925353DFE00601E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2F6043B25353DFE00601E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ADB4F575BB93571318C74FF /* Pods-aes256test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9F8WFEHTF;
+				INFOPLIST_FILE = aes256test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.tonyliu.aes256test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2F6043C25353DFE00601E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DBC31C12F83C6FBE06ABF29 /* Pods-aes256test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9F8WFEHTF;
+				INFOPLIST_FILE = aes256test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.tonyliu.aes256test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2F6042125353DFC00601E90 /* Build configuration list for PBXProject "aes256test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F6043825353DFE00601E90 /* Debug */,
+				C2F6043925353DFE00601E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F6043A25353DFE00601E90 /* Build configuration list for PBXNativeTarget "aes256test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F6043B25353DFE00601E90 /* Debug */,
+				C2F6043C25353DFE00601E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2F6041E25353DFC00601E90 /* Project object */;
+}
